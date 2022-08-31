@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project4.css">
+    <title>project4</title>
+</head>
+
+<body>
+    <h1>Expense Tracker</h1>
+    <h2>Add A New Item</h2>
+    <div class="sectionOne">
+        <span>
+            <label for="name">Name:</label>
+        </span>
+        <input type="text" id="name" placeholder="Where was the expense made?" required>
+    </div>
+    <div class="sectionTwo">
+        <span>
+            <label for="date">Date:</label>
+        </span>
+        <input type="date" id="date" required>
+        <span>
+            <label for="amount">Amount</label>
+        </span>
+        <input type="text" id="amount" required>
+    </div>
+    <div class="sectionThree">
+        <button id="add">Add Expense</button>
+    </div>
+    <div class="sectionFour">
+        <table id="table">
+            <thead>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+            </thead>
+            <tbody id="tbody">
+
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="project4.js"></script>
+</body>
+
+</html>
